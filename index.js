@@ -3,6 +3,6 @@ exports.factorial = function(n) {
         return 'undefined';
     if(n==0 || n==1)
         return 1;
-    return this.factorial(n) * this.factorial(n-1);
+    return (n) * this.factorial(n-1);
 }
 
