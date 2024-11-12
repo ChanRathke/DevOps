@@ -2,8 +2,8 @@ var main = require('../index');
 var assert = require('assert');
 
 describe('Regular factorial value', function() {
-    it('should return 5 for Fact(5)', function() {
-        assert.strictEqual(main.factorial(5), 5);
+    it('should return 120 for Fact(5)', function() {
+        assert.strictEqual(main.factorial(5), 120);
       });
 });
 
@@ -18,4 +18,4 @@ describe('Negative should return undefined', function() {
     it('should return undefined', function() {
         assert.strictEqual(main.factorial(-1), 'undefined');
       });
-  });
+});
